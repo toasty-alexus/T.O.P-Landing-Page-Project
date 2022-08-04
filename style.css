@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin:0;
     padding:0;
 }
@@ -10,7 +11,7 @@ body{
     flex:1;
     justify-content: space-around;
     margin:0;
-    padding:0;
+    padding:10px;
     font-size: 24px;
     color: #F9FAF8;
     background-color: #1F2937;
@@ -26,8 +27,31 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
-img{
-    width:200px;
-    height: 200px;
-    border: 1px solid black;
+/* first container */
+.containerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    gap:20px;
+    background-color: #1F2937;
+}
+.containerOne h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+.nestedContainer{
+    width:40%;
+}
+.description{
+    color:#E5E7EB;
+}
+.signUp{
+    background-color: #3882f6;
+    border:none;
+    border-radius:5px;
+    color:white;
+    padding:7px 5px;
+    width:25%;
 }
