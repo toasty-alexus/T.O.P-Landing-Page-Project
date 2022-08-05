@@ -16,6 +16,10 @@ body{
     color: #F9FAF8;
     background-color: #1F2937;
   }
+  .header img{
+    width:120px;
+    height:100px;
+  }
   ul{
     display: flex;
     list-style-type: none;
@@ -80,5 +84,7 @@ body{
     width:200px;
     height:200px;
     border:3px solid #3882f6;
+    background-color: cadetblue;
     border-radius: 5px;
   }
+/* Quote container */
