@@ -96,9 +96,10 @@ a{
   align-items: center;
   justify-content: center;
   flex:1;
-  padding:50px;
+  padding:60px;
   background-color: #E5E7EB;
   font-size: 36px;
+  margin-bottom:60px;
 }
 .quoteText{
   color:#1F2937;
@@ -109,4 +110,30 @@ a{
 .author{
   display: block;
   text-align: end ;
+}
+/* Call to Action */
+.callAction{
+  display: flex;
+  justify-content: space-around;
+  margin:auto;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width:60%; 
+}
+.ctaBody{
+  align-items: flex-start;
+  color:#F9FAF8
+}
+.ctaBtn{
+  background-color: #3882f6;
+  border:2px solid white;
+  border-radius: 5px;
+  padding:7px 15px;
+  width:15%;
+  color:white;
+}
+/* Footer */
+.footer{
+  margin-top:60px;
 }
