@@ -136,5 +136,9 @@ a{
 }
 /* Footer */
 .footer{
+  text-align: center;
+  padding:35px;
+  background-color: #1F2937;
+  color:#F9FAF8;
   margin-top:60px;
 }
