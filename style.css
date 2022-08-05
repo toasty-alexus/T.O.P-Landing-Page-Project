@@ -91,20 +91,21 @@ a{
 }
 /* Quote container */
 .quoteContainer{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-flex:1;
-padding:50px;
-background-color: #E5E7EB;
-font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  padding:50px;
+  background-color: #E5E7EB;
+  font-size: 36px;
 }
 .quoteText{
-color:#1F2937;
-font-style: italic;
-font-weight: lighter;
-width:50%;
+  color:#1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  width:50%;
+  background-color: green;
 }
 .author{
   display: block;
