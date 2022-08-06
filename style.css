@@ -73,6 +73,7 @@ a{
 .imgContainer{
   display: flex;
   justify-content: center;  
+  flex: 1;
 }
 .info{
   width:20%;
@@ -114,6 +115,7 @@ a{
 /* Call to Action */
 .callAction{
   display: flex;
+  flex:1;
   justify-content: space-around;
   margin:auto;
   align-items: center;
